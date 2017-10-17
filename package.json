@@ -5,7 +5,7 @@
   "scripts": {
     "preinstall": "cp /Users/bonnie/.eslintrc .",
     "test": "export NODE_ENV=test && mocha",
-    "start": "./keys.sh && node make_csv.js",
+    "start": "./keys.sh && node make_csv.js"
   },
   "devDependencies": {
     "ajv": "^5.2.2",
